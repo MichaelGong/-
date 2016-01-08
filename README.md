@@ -1,8 +1,9 @@
 # 前端一些知识点积累
 ### 目录
 1. [判断是否为数组](#1、判断是否为数组)
-2. [user-select](#2、user-select)
-3. [-webkit-tap-highlight-color](#3、-webkit-tap-highlight-color)
+2. [user-select](#2user-select)
+3. [-webkit-tap-highlight-color](#3-webkit-tap-highlight-color)
+4. [-webkit-touch-callout](#4-webkit-touch-callout)
 
 ### 1、判断是否为数组
 ```javascript
@@ -23,7 +24,7 @@ function isArrayFn(obj){
 -ms-user-select: none;
 user-select: none;
 ```
-3、-webkit-tap-highlight-color
+### 3、-webkit-tap-highlight-color
 
 设置a点击的时候高亮：
 ```css
@@ -31,7 +32,7 @@ a{
     -webkit-tap-highlight-color:rgba(0,0,0,.5);
 }
 ```
-4、-webkit-touch-callout
+### 4、-webkit-touch-callout
 
 是否禁用系统默认处理的功能，例如：链接元素比如新窗口打开，img元素比如保存图像等等
 ```
