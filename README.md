@@ -6,7 +6,7 @@
 4. [-webkit-touch-callout](#4-webkit-touch-callout)
 5. [input type='date'移动端无法触发change](#5input-typedate移动端无法触发change)
 6. [移动端audio无法自动播放](#6移动端audio无法自动播放)
-7. [MP4格式的播放时黑屏](#7MP4格式的播放时黑屏)
+7. [MP4格式的播放时黑屏](#7mp4格式的播放时黑屏)
 
 ### 1、判断是否为数组
 ```javascript
@@ -54,10 +54,10 @@ document.addEventListener('touchstart', function () {
     document.getElementsByTagName('audio')[0].pause();
 });
 ```
-### 7、MP4格式的播放时黑屏
-html5 video不能播放，能播放声音不能播放视频，黑屏：
-浏览器播放视频的支持有限，MP4格式的视频只支持h.264的视频；
-视频编码： AVC1 - 内置 FFmpeg 解码器(h264) 可以播放；
-视频编码： mp4v - 内置 FFmpeg 解码器(mpeg4) 不可以播放；
-声音压制的方式： AAC
-如果出现上述问题，可以使用格式工厂转化下格式。
+### 7、MP4格式的播放时黑屏 
+html5 video不能播放，能播放声音不能播放视频，黑屏：<br>
+浏览器播放视频的支持有限，MP4格式的视频只支持h.264的视频；<br>
+视频编码： AVC1 - 内置 FFmpeg 解码器(h264) 可以播放；<br>
+视频编码： mp4v - 内置 FFmpeg 解码器(mpeg4) 不可以播放；<br>
+声音压制的方式： AAC<br>
+如果出现上述问题，可以使用格式工厂转化下格式。<br>
