@@ -4,7 +4,7 @@
 2. [user-select](#2user-select)
 3. [-webkit-tap-highlight-color](#3-webkit-tap-highlight-color)
 4. [-webkit-touch-callout](#4-webkit-touch-callout)
-5. [input type='date'移动端无法触发change](5#input-type='date'移动端无法触发change)
+5. [input type='date'移动端无法触发change](5#input-typedate移动端无法触发change)
 
 ### 1、判断是否为数组
 ```javascript
@@ -42,3 +42,5 @@ none： 系统默认菜单被禁用
 inherit：系统默认菜单不被禁用
 ```
 ### 5、input type='date'移动端无法触发change
+Android移动端input type='date' 并不能触发`change`和`input`监听事件，但是可以监听`blur`事件来代替，只不过不是在选择完毕后立即触发回调，而是在input失去焦点后触发回调。
+
