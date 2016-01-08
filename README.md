@@ -1,9 +1,10 @@
 # 前端一些知识点积累
 ### 目录
 1. [判断是否为数组](#1、判断是否为数组)
-2. 
+2. [user-select](#2、user-select)
+3. [-webkit-tap-highlight-color](#3、-webkit-tap-highlight-color)
 
-## 1、判断是否为数组
+### 1、判断是否为数组
 ```javascript
 function isArrayFn(obj){
     if(typeof Array.isArray === 'function'){ //ES5方法
@@ -13,7 +14,7 @@ function isArrayFn(obj){
     }
 }
 ```
-2、user-select：
+### 2、user-select
 
 控制用户无法选择（现代浏览器）
 ```css
