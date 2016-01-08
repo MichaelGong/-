@@ -1,8 +1,9 @@
 # 前端一些知识点积累
 ### 目录
 1. [判断是否为数组](#isarray)
+2. 
+
 ## 判断是否为数组
-~判断是否为数组:
 ```javascript
 function isArrayFn(obj){
     if(typeof Array.isArray === 'function'){ //ES5方法
