@@ -4,7 +4,7 @@
 2. [user-select](#2user-select)
 3. [-webkit-tap-highlight-color](#3-webkit-tap-highlight-color)
 4. [-webkit-touch-callout](#4-webkit-touch-callout)
-5. [input type='date'移动端无法触发change](5#input-typedate移动端无法触发change)
+5. [input type='date'移动端无法触发change](#5input-typedate移动端无法触发change)
 
 ### 1、判断是否为数组
 ```javascript
